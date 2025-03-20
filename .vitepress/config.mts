@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { zh } from './zh'
+import { zh, search as zhSearch } from './zh'
 
 export default defineConfig({
   srcDir: "docs",
@@ -11,6 +11,13 @@ export default defineConfig({
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/SkySummer/DevNotes' }
-    ]
+    ],
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: { ...zhSearch }
+      }
+    }
   }
 })
