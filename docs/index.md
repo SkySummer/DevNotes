@@ -7,11 +7,8 @@ hero:
   tagline: Presented by an ACMer.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 进入笔记
+      link: /main
 
 features:
   - title: Feature A

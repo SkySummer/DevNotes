@@ -41,11 +41,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '首页',
-      link: '/'
-    },
-    {
-      text: 'Examples',
-      link: '/markdown-examples'
+      link: '/main'
     }
   ]
 }
@@ -53,15 +49,12 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Examples',
+      text: 'C++',
+      base: '/cpp',
       items: [
         {
-          text: 'Markdown Examples',
-          link: '/markdown-examples'
-        },
-        {
-          text: 'Runtime API Examples',
-          link: '/api-examples'
+          text: '前言',
+          link: '/foreword'
         }
       ]
     }
